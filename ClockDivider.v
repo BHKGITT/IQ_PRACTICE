@@ -1,7 +1,7 @@
 module ClockDivider#(paramter CLK_DIVIDER = 1)
 	(
 		input CLK_IN,
-		input Reset_n;
+		input Reset_n,
 		output CLK_OUT
 	);
 	reg[1:0] counter;
