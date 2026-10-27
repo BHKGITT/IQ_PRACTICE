@@ -1,4 +1,4 @@
-module ClockDivider#(paramter CLK_DIVIDER = 1)
+module ClockDivider#(paramter CLK_DIVIDER = 1) 
 	(
 		input CLK_IN,
 		input Reset_n,
